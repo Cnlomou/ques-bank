@@ -6,4 +6,4 @@
  - 缓存用到 redis
  - 数据库 mysql
  
- ![](11.jpg)
+ ![](https://cdn.jsdelivr.net/gh/Cnlomou/cdh/img/11.jpg)
