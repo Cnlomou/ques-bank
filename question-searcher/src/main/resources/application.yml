@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.23.160:9300
+      cluster-name: my-es
+  redis:
+    host: 192.168.23.160
+    timeout: 30000
+#  rabbitmq:
+#    host: 192.168.23.160
+#    password: guest
+#    username: guest
+#    port: 5672
+logging:
+  level:
+    com.example.service: info
+server:
+  port: 8002

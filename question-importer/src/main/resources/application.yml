@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      file-size-threshold: 10MB
+mybatis:
+  configuration:
+    use-generated-keys: true
+logging:
+  level:
+    com.example.service: info
